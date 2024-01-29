@@ -30,7 +30,7 @@ def run_test_py():
 
 if __name__ == "__main__":
     target_ip = input("Enter the target IP address: ")
-    output_file = "/home/kali/Desktop/scan.txt"
+    output_file = "/scan.txt"
 
     run_nmap(target_ip, output_file)
     run_nikto(target_ip, output_file)
