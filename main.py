@@ -67,5 +67,5 @@ def read_scanned_file(file_path):
             
     savejson(responses)
 
-file_path = '/scan.txt'
+file_path = '/results.txt'
 read_scanned_file(file_path)
