@@ -71,9 +71,9 @@ def run_main_py():
         print(f"Error running test.py: {e}")
 
 if __name__ == "__main__":
-    nmap_input_file_path = '/home/kali/Desktop/scan.txt'  # Replace with your actual Nmap file path
-    nikto_input_file_path = '/home/kali/Desktop/scan.txt'  # Replace with your actual Nikto file path
-    output_file_path = '/home/kali/Desktop/results.txt'  # Replace with your desired output file path
+    nmap_input_file_path = '/scan.txt'  # Replace with your actual Nmap file path
+    nikto_input_file_path = 'scan.txt'  # Replace with your actual Nikto file path
+    output_file_path = '/results.txt'  # Replace with your desired output file path
 
     nmap_filtered_results = parse_nmap_results(nmap_input_file_path)
     nikto_filtered_results = parse_nikto_results(nikto_input_file_path)
