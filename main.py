@@ -67,5 +67,5 @@ def read_scanned_file(file_path):
             
     savejson(responses)
 
-file_path = '/home/kali/Desktop/scan.txt'
+file_path = '/scan.txt'
 read_scanned_file(file_path)
