@@ -1,4 +1,4 @@
-Get the docker container by running the following command
+Get the docker container by running the following command:
 
 
 docker pull dockeruploader/ubuntuscanner
